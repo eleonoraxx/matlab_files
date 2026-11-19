@@ -1,0 +1,175 @@
+z = (4 * 5)
+
+z =
+
+    20
+
+A = [1, 2, 3; 4, 5, 6]
+
+A =
+
+     1     2     3
+     4     5     6
+
+a = 10
+
+a =
+
+    10
+
+a = 10;
+b = 5;
+sum a + b
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sum')" style="font-weight:bold">sum</a>
+Invalid option. Option must be 'all', 'double', 'native', 'default', 'omitnan', 'includenan', 'omitmissing' or
+'includemissing'.
+} 
+pi = 
+ pi = 
+      ↑
+{Error: Invalid expression. Check for missing or extra characters.
+} 
+pi
+
+ans =
+
+    3.1416
+
+pi;
+a
+
+a =
+
+    10
+
+sum a,b
+
+ans =
+
+    97
+
+
+b =
+
+     5
+
+#short: in quanti bit ti salva il numero: long sono più bit ed è più preciso
+ #short: in quanti bit ti salva il numero: long sono più bit ed è più preciso
+ ↑
+{Error: Invalid text character. Check for unsupported symbol, invisible character, or pasting of non-ASCII characters.
+} 
+format long
+pi
+
+ans =
+
+   3.141592653589793
+
+format short
+pi
+
+ans =
+
+    3.1416
+
+a = [1; 2; 3; 4]
+
+a =
+
+     1
+     2
+     3
+     4
+
+a(3)
+
+ans =
+
+     3
+
+a(end)
+
+ans =
+
+     4
+
+a = [2 3 4 5]
+
+a =
+
+     2     3     4     5
+
+size((a)
+ size((a)
+         ↑
+{Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for mismatched delimiters.
+} 
+size(a)
+
+ans =
+
+     1     4
+
+lenght(a)
+{Unrecognized function or variable 'lenght'.
+} 
+length(a)
+
+ans =
+
+     4
+
+b
+
+b =
+
+     5
+
+x = 1:10
+
+x =
+
+     1     2     3     4     5     6     7     8     9    10
+
+x = linspace(-5,5)
+
+x =
+
+  Columns 1 through 13
+
+   -5.0000   -4.8990   -4.7980   -4.6970   -4.5960   -4.4949   -4.3939   -4.2929   -4.1919   -4.0909   -3.9899   -3.8889   -3.7879
+
+  Columns 14 through 26
+
+   -3.6869   -3.5859   -3.4848   -3.3838   -3.2828   -3.1818   -3.0808   -2.9798   -2.8788   -2.7778   -2.6768   -2.5758   -2.4747
+
+  Columns 27 through 39
+
+   -2.3737   -2.2727   -2.1717   -2.0707   -1.9697   -1.8687   -1.7677   -1.6667   -1.5657   -1.4646   -1.3636   -1.2626   -1.1616
+
+  Columns 40 through 52
+
+   -1.0606   -0.9596   -0.8586   -0.7576   -0.6566   -0.5556   -0.4545   -0.3535   -0.2525   -0.1515   -0.0505    0.0505    0.1515
+
+  Columns 53 through 65
+
+    0.2525    0.3535    0.4545    0.5556    0.6566    0.7576    0.8586    0.9596    1.0606    1.1616    1.2626    1.3636    1.4646
+
+  Columns 66 through 78
+
+    1.5657    1.6667    1.7677    1.8687    1.9697    2.0707    2.1717    2.2727    2.3737    2.4747    2.5758    2.6768    2.7778
+
+  Columns 79 through 91
+
+    2.8788    2.9798    3.0808    3.1818    3.2828    3.3838    3.4848    3.5859    3.6869    3.7879    3.8889    3.9899    4.0909
+
+  Columns 92 through 100
+
+    4.1919    4.2929    4.3939    4.4949    4.5960    4.6970    4.7980    4.8990    5.0000
+
+y = linspace(-5,5, 7)
+
+y =
+
+   -5.0000   -3.3333   -1.6667         0    1.6667    3.3333    5.0000
+
